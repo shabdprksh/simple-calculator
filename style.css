@@ -1,0 +1,75 @@
+/* CSS */
+
+body {
+  background-color: #a15555;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  height: 100%; /* Adjust as needed */
+}
+
+.first-title {
+  color: #131415;
+}
+
+#display {
+  width: 200px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  text-align: right;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 24px;
+  border-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px; /* Adjust font size as needed */
+  overflow: hidden; /* Hide overflow content */
+}
+
+.main-body {
+  display: flex;
+  position: fixed;
+  margin-top: 450px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  padding: 3px 5px;
+  box-sizing: border-box;
+  color: #3c4043;
+  max-width: fit-content; /* Optional: Set maximum width */
+  max-height: fit-content; /* Adjust height as needed */
+  background-color: rgb(69, 67, 67); /* Example background color */
+  box-sizing: border-box; /* Include padding and border in the total width/height */
+  flex-direction: column;
+}
+
+.buttons {
+  width: 60px;
+  height: 40px;
+  align-items: center;
+  margin: 0 5px 5px;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: hidden;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  color: #131415;
+  cursor: pointer;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.buttons:hover {
+  background: #f6f9fe;
+  color: #3a3e44;
+}
